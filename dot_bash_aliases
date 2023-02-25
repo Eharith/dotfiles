@@ -1,4 +1,4 @@
-# my useful aliases!
+# my useful aliases
 alias c='clear'
 alias ll=" ls"
 alias ls=" ls -lhF --time-style=long-iso --color=auto"
