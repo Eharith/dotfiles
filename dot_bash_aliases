@@ -1,8 +1,0 @@
-# my useful aliases
-alias c='clear'
-alias ll=" ls"
-alias ls=" ls -lhF --time-style=long-iso --color=auto"
-alias reload="source ~/.bashrc"
-alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
-alias weather="curl wttr.in"
-alias zdup="flatpak update && flatpak remove --unused ; sudo zypper dup -y"
