@@ -42,3 +42,8 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 
 # system update
 alias zdup="flatpak update && flatpak remove --unused ; sudo zypper dup -y"
+
+# quick commands for zypper
+alias in="sudo zypper install "
+alias se="zypper search "
+alias rm="sudo zypper remove -u "
