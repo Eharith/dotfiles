@@ -22,7 +22,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # vim and emacs
-alias vim="nvim"
+# alias vim="nvim"
 
 # adding flags
 alias df='df -h'                          # human-readable sizes
@@ -44,6 +44,6 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 alias zdup="flatpak update && flatpak remove --unused ; sudo zypper dup -y"
 
 # quick commands for zypper
-alias in="sudo zypper install "
-alias se="zypper search "
-alias rm="sudo zypper remove -u "
+alias i="sudo zypper install "
+alias s="zypper search "
+alias r="sudo zypper remove -u "
